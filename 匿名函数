@@ -1,0 +1,12 @@
+package main
+import "fmt"
+
+func ReteunDate()(int, int){
+	return 10,20
+}
+
+func main(){
+	a,_ := ReteunDate()
+	_,b := ReteunDate()
+	fmt.Println(a,b)
+}
