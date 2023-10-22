@@ -1,0 +1,30 @@
+package main
+
+import "fmt"
+
+func main() {
+	const (
+		a = 1 << iota //位左移
+		b = 1 << iota
+		c = 3
+		d = 1 << iota
+	)
+	fmt.Println(a)
+	fmt.Println(b)
+	fmt.Println(c)
+	fmt.Println(d)
+}
+
+//枚举iota
+const (
+		c0 = iota  // c0 = 1 
+    c1 = iota  // c1 = 2
+    c2 = iota  // c2 = 3
+	)
+
+//简写
+const (
+		c0 = iota  // c0 = 1 
+    c1 = iota 
+    c2 = iota 
+	)
