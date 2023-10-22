@@ -17,14 +17,14 @@ func main() {
 
 //枚举iota
 const (
-		c0 = iota  // c0 = 1 
+    c0 = iota  // c0 = 1 
     c1 = iota  // c1 = 2
     c2 = iota  // c2 = 3
 	)
 
 //简写
 const (
-		c0 = iota  // c0 = 1 
-    c1 = iota 
-    c2 = iota 
+    c0 = iota  // c0 = 1 
+    c1 
+    c2 
 	)
